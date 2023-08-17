@@ -1,0 +1,84 @@
+.dark{
+    color: white;
+    .feature-title{
+        color:#fd9644;
+    }
+}
+.about{
+    display: flex;
+    justify-content: center;
+   
+}
+.about-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+}
+.about-us{
+    color: #fd9644!important;
+    text-transform: uppercase!important;
+    font-family: "Barlow",sans-serif;
+    margin-bottom: 20px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fd9644!important;
+    margin-bottom: 20px;
+}
+.about-content{
+    margin-bottom: 20px;
+}
+.image{
+    background-image:url('../../../asset/aboutus.png');
+    background-repeat: no-repeat;
+    width: 1100px !important;
+    height: 600px !important;
+    position: relative;
+}
+.experience{
+    background-color: rgba(0, 0, 0, 0.218);
+    width: 12rem;
+    height:fit-content;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+   left: 33%;
+   top: -3%;
+}
+.experience-number{
+    font-weight: 800;
+    color: #fd9644;
+    font-size: 35px;
+    z-index: 100;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.experience-content{
+    font-weight: 800;
+    color: white;
+    font-size: 20px;
+}
+.feature{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.feature-number{
+    background-color: #fd9644!important;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.feature-title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}

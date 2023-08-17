@@ -1,0 +1,78 @@
+.wrapperdark{
+  background-color: #333;
+  & h1 {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    color: white;
+  }
+  .manufacturers-intro{
+    color: white;
+  }
+  .manufacturer-title{
+    color: white;
+  }
+  .manufacturer-text{
+    color: white;
+  }
+}
+@media (max-width:768px) {
+  .card-support{
+    margin-top: 20px;
+  }
+}
+.wrapper {
+
+    & h1 {
+      text-align: center;
+      padding: 10px 0 30px 0;
+    }
+  }
+  @media (max-width:768px) {
+    .card-support{
+      margin-top: 20px;
+    }
+  }
+  
+.manufacturer-img{
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}  
+.manufacturers{
+  display: flex;
+  justify-content: space-between;
+}
+.manufacturer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+ transition: 400ms ease;
+ cursor: pointer;
+ &:hover{
+  transform: scale(1.1);
+ }
+}
+.manufacturer-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+.manufacturers-intro{
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 32px;
+}
+.fill{
+  margin: 30px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('https://wallpaperaccess.com/full/120171.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+  border-radius: 20px;
+}

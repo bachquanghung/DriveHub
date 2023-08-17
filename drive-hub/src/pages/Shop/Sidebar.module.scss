@@ -1,0 +1,84 @@
+.containerdark{
+  box-sizing: border-box;
+  padding: 20px;
+  color: black;
+}
+.container{
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+.search {
+    
+    background-image: url('https://png.pngtree.com/png-vector/20190319/ourmid/pngtree-vector-search-icon-png-image_848103.jpg');
+    background-repeat: no-repeat;
+    height: 3rem;
+    border: 1px solid #ff9950;
+    background-size: 20px;
+    background-position: 95% 50%;
+    background-color: transparent;
+   color: white;
+    border-radius: 20px;
+    background-color: black;
+    z-index: 100;
+    cursor:auto;
+   margin-bottom: 40px;
+  }
+  input{
+      padding: 15px;
+  }
+  .price-filter-title{
+    font-size: 22px;
+  }
+  .slider-action{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  .categories{
+    margin: 3rem 0;
+  }
+  .categories-title{
+    font-size: 22px;
+  }
+  .category{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  button{
+    padding: 7px 15px;
+    background-color: #ff9950;
+    font-weight: 500;
+  }
+  .caption{
+    display: none;
+  }
+  .best-sellers-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .best-seller{
+    background-color: #ff9950;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .best-seller-name{
+    font-size: 18px;
+    font-weight: 600;
+
+  }
+  @media (max-width: 948px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container{
+        box-sizing: border-box;
+        padding: 20px;
+        padding-left: 0;
+    }
+  }

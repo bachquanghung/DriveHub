@@ -1,0 +1,144 @@
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+   
+}
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.6;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 55%;
+    border-radius: 30px;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    
+    align-items: center;
+  }
+  .title {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    &:hover{
+     color: #ff9950;
+    }
+  }
+  .logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+   
+    transition: transform 400ms;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+.product-overall{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-img{
+    border-radius: 20px;
+    width:450px;
+    height: 100%
+}
+.product-description{
+    width: 300px;
+}
+.product-title{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.product-rating{
+    margin-bottom: 20px;
+}
+
+.product-manufacture{
+    margin-bottom: 20px;
+}
+.action{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.modal-footer-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.modal-footer-content{
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .modal{
+        overflow-y: hidden;
+        position: fixed;
+  
+    }
+    .modal-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .product-overall{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .product-img{
+  
+        width:100%;
+        height: 100%
+    }
+    .product-description{
+        width: 100%;
+    }
+}

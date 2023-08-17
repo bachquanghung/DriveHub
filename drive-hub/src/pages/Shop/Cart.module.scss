@@ -1,0 +1,30 @@
+.cart-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    z-index: 1000000;
+}
+.cart-title{
+    margin: 15px 0px;
+}
+img{
+    height: 5rem;
+    width: 5rem;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-detail{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}

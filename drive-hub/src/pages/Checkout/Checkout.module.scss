@@ -1,0 +1,48 @@
+.header{
+    margin: 10px 0px;
+    font-weight: 700;
+}
+.inputs-small{
+    display: flex;
+}
+.input-detail{
+    border: 1px solid black;
+    border-radius: 10px;
+  margin: 20px 0px;
+  color: black;
+}
+.select-input {
+    appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+  margin: 20px 0px;
+  color: black;
+  }
+.button-submit{
+    background-color: bisque;
+}
+.stage-field{
+    overflow: hidden;
+  display: flex;
+}
+.stage{
+    transform: translateX(700px);
+    transition: transform .6s ease;
+    transition-delay: 0s;
+   width: 0;
+}
+.stage-active{
+    transform: translateX(0px);
+    transition: transform .6s ease;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    
+}

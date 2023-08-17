@@ -1,0 +1,77 @@
+.dark{
+    .big-title{
+        color: #fd9644;
+    }
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.big-title{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.small-title{
+    color: #fd9644;
+    font-weight: 600;
+    font-size: 20px;
+}
+.experts{
+    display: flex;
+}
+.expert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avatar{
+    width:300px;
+    height: 300px;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    &:hover .socials{
+        display: flex;
+        transform: scale(1);
+        transition: all .25s ease-in;
+    }
+}
+.socials{
+    background-color: #fd9644;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all .25s ease-in;
+    display: flex;
+ 
+    & span{
+        font-size: 50px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+.infor{
+    margin-top: -2rem;
+    background-color: rgb(244, 244, 245);
+    padding: 25px;
+    width: 80%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.field{
+    color: #fd9644;
+}
